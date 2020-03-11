@@ -15,7 +15,6 @@ public class CounterController {
     @GetMapping(value = "/")
     @JsonProperty
     public int getId() {
-        int newId = counterService.generateId();
-        return newId;
+        return counterService.generateId();
     }
 }

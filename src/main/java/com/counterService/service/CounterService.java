@@ -17,7 +17,6 @@ public class CounterService {
 
     public int generateId() {
 
-        int newId = counter.createId();
-        return newId;
+        return counter.createId();
     }
 }
