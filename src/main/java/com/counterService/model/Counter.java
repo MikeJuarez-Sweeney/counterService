@@ -20,5 +20,4 @@ public class Counter {
         id++;
         return personId;
     }
-
 }
